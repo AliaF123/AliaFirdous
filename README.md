@@ -2,7 +2,6 @@
 
 Welcome to my portfolio repository! This project showcases my skills, work experience, and projects as a web developer.
 
----
 
 <!-- ## 🌟 Live Demo
 Check out the live portfolio here: [My Portfolio](https://your-live-link.com) -->
