@@ -1,0 +1,31 @@
+{
+    "experiences": [
+      {
+        "title": "Software Developer",
+        "company": "Accenture",
+        "dates": "11/2021 – 06/2024",
+        "project": "Integrated Enterprise Management Platform (IEMP)",
+        "details": "Worked on front-end development for IEMP, streamlining business processes.",
+        "technologies": ["HTML", "CSS", "JavaScript", "React", "Java"]
+      },
+      {
+        "title": "Software Developer",
+        "company": "Hexaware Technologies",
+        "dates": "07/2019 – 11/2021",
+        "project": "Retalix Store Line Enhancement",
+        "details": "Enhanced Retalix Store Line system to support retail operations.",
+        "technologies": ["Java", "Angular", "MySQL"]
+      },
+      {
+        "title": "Software Developer Associate",
+        "company": "Hexaware Technologies",
+        "project":"HDFC Flexcube support",
+        "dates": "06/2018 – 11/2018",
+        "details": [
+          "Application Support: Delivered support for Oracle Flexcube, troubleshooting issues, enhancing system performance, and ensuring minimal downtime for core banking functions."
+        ],
+        "technologies": ["Java", "Oracle Flexcube","ServiceNow", "MySQL"]
+      }
+    ]
+  }
+  
