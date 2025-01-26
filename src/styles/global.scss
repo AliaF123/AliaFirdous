@@ -38,29 +38,28 @@ body {
 
   .hero-content {
     h1 {
-      font-size: 2.5rem; /* Smaller font size for h1 */
+      font-size: 2.5rem; 
     }
     p {
-      font-size: 1rem; /* Smaller font size for paragraph */
+      font-size: 1rem; 
     }
   }
 
   .projects-gallery {
-    grid-template-columns: 1fr; /* Stack projects in one column */
+    grid-template-columns: 1fr; 
   }
 
   .contact form {
     input, textarea {
-      font-size: 1rem; /* Smaller font size for form inputs */
+      font-size: 1rem; 
     }
   }
 
   .about .about-content {
-    flex-direction: column; /* Stack about content vertically */
+    flex-direction: column;
   }
 }
 
-/* Keyframe animation for fadeIn */
 @keyframes fadeIn {
   0% {
     opacity: 0;

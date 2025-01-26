@@ -5,18 +5,18 @@ const projects = [
   {
     title: "My Portfolio",
     description: "A fully responsive and interactive portfolio built with React, SCSS, and JavaScript. This project showcases my skills, experiences, and design capabilities.",
-    link: "https://github.com/yourusername/portfolio-project",
+    link: "https://github.com/AliaF123/MY_PORTFOLIO"
   },
   {
-    title: "Weather App",
-    description: "A weather forecasting app built using React and the OpenWeather API. It features a clean UI and displays real-time weather conditions for any city.",
-    link: "https://github.com/yourusername/weather-app",
+    title: "Flight Price Prediction",
+    description: "The Flight Price Prediction Web App will allow users to input flight details (such as departure and destination cities, flight class, etc.) and get a predicted flight price using a machine learning model.",
+    link: "https://github.com/AliaF123"
   },
   {
-    title: "Task Manager",
-    description: "A task management tool built with Node.js, Express, and MongoDB. It allows users to create, update, and delete tasks while keeping track of deadlines.",
-    link: "https://github.com/yourusername/task-manager",
-  },
+    title: "QR code Generator",
+    description: "The Flight Price Prediction Web App will allow users to input flight details (such as departure and destination cities, flight class, etc.) and get a predicted flight price using a machine learning model.",
+    link: "https://github.com/AliaF123/python_learning/blob/main/QRcode%20genrator.ipynb"
+  }
 ];
 
 const Projects = () => {

@@ -1,14 +1,14 @@
-import React from "react";
-import "../styles/about.scss";
+// import React from "react";
+// import "../styles/about.scss";
 
-const About = () => {
-  return (
-    <section className="about" id="about">
-      <div className="container">
+// const About = () => {
+//   return (
+//     <section className="about" id="about">
+//       <div className="container">
        
-      </div>
-    </section>
-  );
-};
+//       </div>
+//     </section>
+//   );
+// };
 
-export default About;
+// export default About;
