@@ -8,14 +8,19 @@ const projects = [
     link: "https://github.com/AliaF123/MY_PORTFOLIO"
   },
   {
-    title: "Flight Price Prediction",
-    description: "The Flight Price Prediction Web App will allow users to input flight details (such as departure and destination cities, flight class, etc.) and get a predicted flight price using a machine learning model.",
+    title: "Employee Management System",
+    description: "https://github.com/AliaF123/Employee-Project-Management",
     link: "https://github.com/AliaF123"
   },
   {
     title: "QR code Generator",
     description: "The Flight Price Prediction Web App will allow users to input flight details (such as departure and destination cities, flight class, etc.) and get a predicted flight price using a machine learning model.",
     link: "https://github.com/AliaF123/python_learning/blob/main/QRcode%20genrator.ipynb"
+  },
+  {
+    title: "Fraud Detection",
+    description: "Credit Card Fraud Detection trained model using K means Clustering",
+    link: "https://github.com/AliaF123/Fraud_Detection"
   }
 ];
 
