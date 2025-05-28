@@ -24,18 +24,12 @@ const Skills = () => {
           {/* Technical Skills */}
           <div className="technical-skills">
             <h3>Technical Skills</h3>
+            <div className="tags">
             {skills?.technicalSkills?.map((skill, index) => (
-              <div key={index} className="progress-bar-container">
+              <div key={index} className="tag">
                 <span>{skill.name}</span>
-                <div className="progress-bar">
-                  <div
-                    className="progress"
-                    style={{ width: `${skill.level}%` }}
-                  ></div>
-                </div>
-                <span>{skill.level}%</span> {/* Display the percentage after the bar */}
               </div>
-            ))}
+            ))}</div>
           </div>
 
           {/* Soft Skills */}

@@ -1,14 +1,11 @@
 .hero {
   height: 100vh;
-  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
   background: linear-gradient(to top, #e0f7fa, #ffffff);
   color: #004d40;
   display: flex;
-  align-items: center;
   justify-content: center;
   padding: 0 40px;
   position: relative;
-
   background-size: cover;
   background-position: center;
 
@@ -16,24 +13,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    max-width: 800px;
-    padding-top: 60px;
+    max-width: 1000px;
+    margin-top: 40px;
+    justify-content: center;
+
+    .profile-image {
+      margin-bottom: 20px;
+    }
 
     h1 {
       font-size: clamp(2.5rem, 5vw, 4rem);
-      margin: 1rem 0;
+      margin: 0.5rem 0 1rem;
       text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
     }
 
     p {
       font-size: 1.2rem;
       line-height: 1.6;
-      margin-bottom: 2rem;
+      margin: 1rem 0 2.5rem;
+      padding: 0 20px;
       color: #333;
+      max-width: 800px;
     }
 
     .view-btn {
@@ -52,28 +55,23 @@
         font-weight: bold;
         box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
         cursor: pointer;
-        transform: translateY(0);
       }
 
       .btn:hover {
         background-color: #ff6f61;
-        transform: scale(1.1);
-        color: #fff;
         transform: translateY(-4px);
       }
     }
   }
 
-  // Profile image container
   .profile-image {
-    position: absolute;
-    top: 10%; 
-    left: 45%; 
-    width: 200px; 
-    height: 200px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
+    border: 5px solid #00bcd4;
     overflow: hidden;
-    border: 5px solid #00bcd4; 
+    position: absolute;
+    top: 35px;
 
     img {
       width: 100%;
@@ -82,15 +80,7 @@
     }
   }
 
-  // Responsiveness
   @media (max-width: 768px) {
-    .profile-image {
-      top: 10%; 
-      transform: translateX(-50%);
-      width: 120px;
-      height: 120px;
-    }
-
     .hero-content {
       padding: 20px;
 
@@ -100,12 +90,18 @@
 
       p {
         font-size: 1rem;
+        margin: 1rem 0 2rem;
       }
 
       .view-btn {
         flex-direction: column;
         gap: 10px;
       }
+    }
+
+    .profile-image {
+      width: 120px;
+      height: 120px;
     }
   }
 }

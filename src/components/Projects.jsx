@@ -13,9 +13,9 @@ const projects = [
     link: "https://github.com/AliaF123"
   },
   {
-    title: "QR code Generator",
-    description: "The Flight Price Prediction Web App will allow users to input flight details (such as departure and destination cities, flight class, etc.) and get a predicted flight price using a machine learning model.",
-    link: "https://github.com/AliaF123/python_learning/blob/main/QRcode%20genrator.ipynb"
+    title: "Social Buzz",
+    description: "Data analytics project analyzing social media engagement with Python, producing cleaned datasets and insightful visualizations.",
+    link: "https://github.com/AliaF123/Social_Buzz"
   },
   {
     title: "Fraud Detection",
